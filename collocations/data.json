@@ -1,0 +1,29 @@
+[
+  {
+    "headword": "deploy",
+    "collocation": "deploy to production",
+    "meaning": "release code to the production environment",
+    "example": "We will deploy to production on Friday at 22:00 UTC.",
+    "spoken_cue": "deploy to production",
+    "tags": ["deploy","release","speaking","writing"],
+    "register": "neutral"
+  },
+  {
+    "headword": "optimize",
+    "collocation": "optimize performance",
+    "meaning": "make system faster or more efficient",
+    "example": "We optimized performance by introducing caching for frequent queries.",
+    "spoken_cue": "optimize performance",
+    "tags": ["performance","technical","speaking"],
+    "register": "neutral"
+  },
+  {
+    "headword": "fix",
+    "collocation": "fix a bug",
+    "meaning": "correct a software defect",
+    "example": "I fixed a bug that caused NPEs when headers were missing.",
+    "spoken_cue": "fix a bug",
+    "tags": ["bug","debugging","speaking","writing"],
+    "register": "neutral"
+  }
+]
