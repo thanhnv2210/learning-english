@@ -1,0 +1,14 @@
+@startuml
+' PR process flow to explain how to structure PR explanations
+participant Developer
+participant Reviewer
+participant CI
+
+Developer -> CI: Push branch
+CI -> Developer: Run tests
+Developer -> Reviewer: Create PR (Motivation, Changes, How to test)
+Reviewer -> Developer: Comment / Request changes
+Developer -> Reviewer: Reply / Fix
+Reviewer -> CI: Approve
+
+@enduml

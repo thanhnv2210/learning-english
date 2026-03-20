@@ -1,0 +1,11 @@
+@startuml
+title IELTS 12-Week Study Plan
+
+start
+:Week 1-4: Foundation (pronunciation, basic timing);
+:Week 5-8: Practice (timed tasks, peer review);
+:Week 9-11: Mock tests + focused remediation;
+:Week 12: Final mock + review;
+stop
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+' Conversation flow template for role-play
+actor Learner
+actor Assistant
+
+Learner -> Assistant: Start role-play (context, role)
+activate Assistant
+Assistant -> Learner: Ask clarifying question
+Learner -> Assistant: Provide details
+Assistant -> Learner: Give feedback + 3 improvements
+deactivate Assistant
+
+@enduml
